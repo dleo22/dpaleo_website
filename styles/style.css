@@ -30,6 +30,7 @@
     
     .Container img{
     height: 300px;
+    border-radius:50%;
     }
     
     .Container h1{
