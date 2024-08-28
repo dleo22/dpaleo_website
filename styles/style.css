@@ -55,22 +55,22 @@ font-size: 40px;
 }
 
 .column-left{
-    float: left;
+    padding:5px;
+    /* float: left; */
 }
 
 .column-right{
-    padding:40px;
+    /* padding:40px; */
     text-align: justify;
     text-justify: inter-word;
 }
 
 .column-right p{
-    font-size: 18px;;
+    font-size: calc(8px + 1vw);
 }
 
 .column-right h1{
-    font-size: 30px;
-    
+    font-size: calc(16px + 2vw);
 }
 
 /* Clear floats after image containers */
