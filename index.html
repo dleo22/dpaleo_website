@@ -13,45 +13,41 @@
 </head>
 
 <body>
-<div class="header"> 
+<div class="header" id="home"> 
     <h1>Dominic Philip Alexander Leo</h1>
     <p>UBC 3rd Year Computer Science Major Student</p>
 </div>
 
 <div class="navbar">
-    <a href="#intro">Home</a>
+    <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
 </div>
 <main>
-    <section id = "intro">
-        <div class = "container">
-            <h1>Dominic Philip Alexander Leo</h1>
-        <img src="images/cover_photo.jpg" width="400" height="">
-        </div>
-        
-    </section>
-
     <section id = "about">
-        <div class = "container">
-            <h1>About Me</h1> </br>
+        <div class="column1">
+            <h1>About Me</h1>
             <p>I am a UBC student studying computer science specialising in machine learning and data science.
                 I am proficient in Python, Java, C++, with industry experience in C as a software intern at the University of Hong Kong.
                 I am passionate about computer science and like to keep up to date with the latest in artificial intelligence and cybersecurity.
                 </br></br>
-                In my spare time, I enjoy fencing and volunteering, joining Rotaract Vancouver-UBC, and being elected VP Finance for the student-run club.</p>
+                In my spare time, I enjoy fencing and volunteering, joining Rotaract Vancouver-UBC, and being elected VP Finance for the student-run club.
+            </p>
         </div>
-
+        <div class="column">
+            <img src="images/cover_photo.jpg" width="320" height="">
+        </div>
+        
     </section>
 
-    <section id = "contact">
-        <div class = "container">
-            <h1>Contact</h1>
-            <p>Lorem Ipsum</p>
-        </div>
+    <div class="footer" id="contact">
+        <h2>Contact</h2>
+        <address>
+            <a href="mailto:dpaleo22@example.com">dpaleo22@example.com</a><br />
+            <a href="tel:+17788863125">+1 (778) 886‑3125</a>
 
-    </section>
-
+          </address>
+    </footer>
 </main>
 </body>
 </html>

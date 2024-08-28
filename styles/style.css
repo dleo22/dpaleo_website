@@ -54,25 +54,53 @@
     }
     
     .Container img{
-    height: 300px;
-    border-radius:50%;
+    float:right
     }
     
     .Container h1{
     margin-top: 3%;
     }
+
+    .column1{
+        float:left;
+        padding:5px;
+        width:60%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .column{
+        float: left;
+        width:40%;
+        padding:5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
     
-    footer {
-    line-height: 40px;
-    display: flex;
-    justify-content: center;
+    .footer{
+        padding:20px;
+        text-align: center;
+        background-color: #ddd;
+    }
+
+    a[href^='mailto']::before {
+        content: '📧 ';
+      }
+      
+    a[href^='tel']::before {
+    content: '📞 ';
     }
 
     #intro {
         background-color:rgb(255, 255, 255);
         }
         #about{
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(249, 249, 249);
         }
         #contact{
         background-color: rgb(255, 255, 255);
