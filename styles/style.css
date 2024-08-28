@@ -8,18 +8,19 @@ html{
 }
     
 section{
-height: 100vh;
-border: 1px solid grey;
-display: flex;
-justify-content: center;
-align-items: center;
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
 }
 
 .header {
-    padding: 80px; /* some padding */
-    text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
-    color: white; /* white text color */
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
     }
     
 .header h1 {
@@ -29,7 +30,7 @@ font-size: 40px;
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden; /* Hide overflow */
-    background-color: #333; /* Dark background color */
+    background-color: #0A090C; /* Dark background color */
 }
 
 /* Style the navigation bar links */
@@ -53,21 +54,8 @@ font-size: 40px;
     color: black; /* Black text color */
 }
 
-.Container{
-margin-top: 10%
-}
-
-.Container img{
-float:right
-}
-
-.Container h1{
-margin-top: 3%;
-}
-
 .column-left{
     float: left;
-
 }
 
 .column-right{
@@ -95,7 +83,6 @@ margin-top: 3%;
 .footer{
     padding:20px;
     text-align: center;
-    background-color: #ddd;
 }
 
 a[href^='mailto']::before {
@@ -106,12 +93,10 @@ a[href^='tel']::before {
 content: '📞 ';
 }
 
-#intro {
-    background-color:rgb(255, 255, 255);
-    }
-    #about{
-    background-color: rgb(249, 249, 249);
-    }
-    #contact{
-    background-color: rgb(255, 255, 255);
-    }
+#about{
+    background-color: f0edee;
+    border: 1px solid white;
+}
+#contact{
+    background-color: #f0edee;
+}
