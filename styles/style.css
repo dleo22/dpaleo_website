@@ -27,6 +27,12 @@ section{
 font-size: 40px;
 }
 
+h2 strong {
+    display: block;
+    font-size: 75%;
+    opacity: 0.75;
+  }
+
 .column-left{
     padding:5px;
     /* float: left; */
