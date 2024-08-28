@@ -1,106 +1,112 @@
 *{
     padding: 0;
     margin: 0;
-    }
-    
-    section{
-    height: 100vh;
-    border: 1px solid grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+}
 
-    .header {
-        padding: 80px; /* some padding */
-        text-align: center; /* center the text */
-        background: #1abc9c; /* green background */
-        color: white; /* white text color */
-      }
-      
-    .header h1 {
-    font-size: 40px;
-    }
+html{
+    scroll-behavior: smooth;
+}
+    
+section{
+height: 100vh;
+border: 1px solid grey;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
-    /* Style the top navigation bar */
-    .navbar {
-        overflow: hidden; /* Hide overflow */
-        background-color: #333; /* Dark background color */
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #1abc9c; /* green background */
+    color: white; /* white text color */
     }
     
-    /* Style the navigation bar links */
-    .navbar a {
-        float: left; /* Make sure that the links stay side-by-side */
-        display: block; /* Change the display to block, for responsive reasons (see below) */
-        color: white; /* White text color */
-        text-align: center; /* Center the text */
-        padding: 14px 20px; /* Add some padding */
-        text-decoration: none; /* Remove underline */
-    }
-    
-    /* Right-aligned link */
-    .navbar a.right {
-        float: right; /* Float a link to the right */
-    }
-    
-    /* Change color on hover/mouse-over */
-    .navbar a:hover {
-        background-color: #ddd; /* Grey background color */
-        color: black; /* Black text color */
-    }
-    
-    .Container{
-    margin-top: 10%
-    }
-    
-    .Container img{
-    float:right
-    }
-    
-    .Container h1{
-    margin-top: 3%;
-    }
+.header h1 {
+font-size: 40px;
+}
 
-    .column-left{
-        float: left;
-        width:40%;
-        padding:5px;
-    }
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+}
 
-    .column-right{
-        padding:5px;
-        width:60%;
-        text-align: justify;
-        text-justify: inter-word;
-    }
+/* Style the navigation bar links */
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
 
-    /* Clear floats after image containers */
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
+/* Right-aligned link */
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+.Container{
+margin-top: 10%
+}
+
+.Container img{
+float:right
+}
+
+.Container h1{
+margin-top: 3%;
+}
+
+.column-left{
+    float: left;
+
+}
+
+.column-right{
+    padding:40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.column-right p{
+    font-size: 18px;;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer{
+    padding:20px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
     }
     
-    .footer{
-        padding:20px;
-        text-align: center;
-        background-color: #ddd;
-    }
+a[href^='tel']::before {
+content: '📞 ';
+}
 
-    a[href^='mailto']::before {
-        content: '📧 ';
-      }
-      
-    a[href^='tel']::before {
-    content: '📞 ';
+#intro {
+    background-color:rgb(255, 255, 255);
     }
-
-    #intro {
-        background-color:rgb(255, 255, 255);
-        }
-        #about{
-        background-color: rgb(249, 249, 249);
-        }
-        #contact{
-        background-color: rgb(255, 255, 255);
-        }
+    #about{
+    background-color: rgb(249, 249, 249);
+    }
+    #contact{
+    background-color: rgb(255, 255, 255);
+    }
