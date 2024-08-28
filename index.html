@@ -22,15 +22,16 @@
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
-    <a href="https://github.com/dleo22" class="right"> GitHub</a>
+    <a href="https://github.com/dleo22" target="_blank" class="right"> GitHub</a>
 </div>
 <main>
     <section id = "about">
         <div class="column-left">
-            <h1>About Me</h1>
+            
             <img src="images/cover_photo.jpg" width="500" height="">
         </div>
         <div class="column-right">
+            <h1>About Me</h1>
             <p>I am a UBC student studying computer science specialising in machine learning and data science.
                 I am proficient in Python, Java, C++, with industry experience in C as a software intern at the University of Hong Kong.
                 I am passionate about computer science and like to keep up to date with the latest in artificial intelligence and cybersecurity.
@@ -53,16 +54,3 @@
 </main>
 </body>
 </html>
-
-
-<script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>

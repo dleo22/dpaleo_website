@@ -80,6 +80,11 @@ margin-top: 3%;
     font-size: 18px;;
 }
 
+.column-right h1{
+    font-size: 30px;
+    
+}
+
 /* Clear floats after image containers */
 .row::after {
     content: "";
